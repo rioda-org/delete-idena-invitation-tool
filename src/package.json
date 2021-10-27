@@ -1,0 +1,19 @@
+{
+  "name": "idenaDevKit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bip39": "^3.0.2",
+    "ethereumjs-wallet": "^1.0.1",
+    "google-protobuf": "^3.13.0",
+    "hdkey": "^2.0.1",
+    "js-sha3": "^0.8.0",
+    "keccak256": "^1.0.2"
+  }
+}
