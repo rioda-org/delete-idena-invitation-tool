@@ -19,7 +19,7 @@ function checkLogin() {
 	let pKey = document.getElementById('unencryptedPK').value;
 	let addy = document.getElementById('addy').value;
 	if(pKey.length==64 && addy.length==42)
-	toastr.success('Login was successfull.\nNow, you can enter invitation address and procede with next step.');
+	toastr.success('Login was successfull.\nNow, you can enter invitation address and proceed with next step.');
   } else {
     toastr.error('Login was not successfull, check your login data.');
   }
